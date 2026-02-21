@@ -23,17 +23,11 @@ class App extends React.Component {
     return (
       <div>
         <h1>Contacts</h1>
-
-        <ul>
-          {this.state.contacts.map(contact => (
-            <li key={contact.id}>
-              {contact.name} — {contact.email}
-            </li>
-          ))}
-        </ul>
+        <Contacts contacts={this.state.contacts} />
       </div>
     );
   }
 }
+
 
 export default App;
