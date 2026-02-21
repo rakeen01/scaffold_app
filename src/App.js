@@ -22,7 +22,6 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <h1>Contacts</h1>
         <Contacts contacts={this.state.contacts} />
       </div>
     );

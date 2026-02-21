@@ -3,7 +3,7 @@ import React from "react";
 const Contacts = ({ contacts }) => {
   return (
     <div>
-      <h1>Contact List</h1>
+      <h1 style={{ padding: "16px" }}>Contact List</h1>
 
       {contacts.map((person) => (
         <div
